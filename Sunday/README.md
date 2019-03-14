@@ -1,5 +1,5 @@
 ## SUNDAY
-İlk olarak, kurban makinenin IP adresi ile **nmap** aracını kullanarak port taraması gerçekleştirildi.  Nmap aracına *-sS* parametresi eklenerek güncel servis taraması ve *-sV* parametresi eklenerek servis için güncel versiyon taraması yapıldı.
+İlk olarak, kurban makinenin IP adresi ile **nmap** aracını kullanarak port taraması gerçekleştirildi. Nmap aracına -sS parametresi eklenerek SYN taraması ve -sV parametresi eklenerek servisler için güncel versiyon taraması yapıldı.
 
 ![](images/1.png)
 
