@@ -1,6 +1,6 @@
 ## ACTIVE
 Çözülecek olan zafiyetli makine, Hack The Box Pen-Test Labs (www.hackthebox.eu) laboratuvarında yer almaktadır. Makine adı: Active.
-İlk olarak makinenin IP adresi ile **nmap** aracını kullanarak port taraması gerçekleştirildi.  Nmap aracına *-sS* parametresi eklenerek güncel servis taraması ve *-sV* parametresi eklenerek servis için güncel versiyon taraması yapıldı. Sonuçlar Resim 1'de görülmektedir.
+İlk olarak makinenin IP adresi ile **nmap** aracını kullanarak port taraması gerçekleştirildi.  Nmap aracına *-sS* parametresi eklenerek SYN taraması ve *-sV* parametresi eklenerek servisler için güncel versiyon taraması yapıldı. Sonuçlar Resim 1'de görülmektedir.
 
 ![](images/1.png)
 
