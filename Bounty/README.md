@@ -1,5 +1,5 @@
 ## BOUNTY
-İlk olarak makinanın IP adresi ile **nmap** aracını kullanarak port taraması gerçekleştirildi.  Nmap aracına *-sS* parametresi eklenerek güncel servis taraması ve *-sV* parametresi eklenerek servis için güncel versiyon taraması yapıldı. Çıkan sonuca göre , 80 numaralı portun açık olduğu ve bu portun, Microsoft IIS web sunucusu tarafından kullanıldığı tespit edildi.
+İlk olarak makinanın IP adresi ile **nmap** aracını kullanarak port taraması gerçekleştirildi. Nmap aracına *-sS* parametresi eklenerek SYN taraması ve *-sV* parametresi eklenerek servisler için güncel versiyon taraması yapıldı. Çıkan sonuca göre , 80 numaralı portun açık olduğu ve bu portun, Microsoft IIS web sunucusu tarafından kullanıldığı tespit edildi.
 
 ![](images/1.png)
 
