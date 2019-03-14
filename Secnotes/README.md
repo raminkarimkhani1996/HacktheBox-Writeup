@@ -1,7 +1,7 @@
 ## SECNOTES
 
 Çözülecek olan zafiyetli makine, Hack The Box Pen-Test Labs (www.hackthebox.eu) laboratuvarında yer almaktadır. Makine adı: SecNotes.
-İlk olarak makinenin IP adresi ile **nmap** aracı kullanılarak port taraması gerçekleştirildi.  Nmap aracına *-sS* parametresi eklenerek güncel servis taraması, *-sV* parametresi eklenerek servis için güncel versiyon taraması, *-A* parametesi ile işletim sistemi versiyon taraması ve *-p* parametresi ile full port taraması yapıldı. Sonuçlar Resim 1'de görülmektedir.
+İlk olarak makinenin IP adresi ile **nmap** aracı kullanılarak port taraması gerçekleştirildi.  Nmap aracına *-A* parametresi eklenerek; güncel servis taraması, servisler için güncel versiyon taraması, işletim sistemi versiyon taraması, traceroute ve script taraması, *-p* parametresi ile full port taraması yapıldı. Sonuçlar Resim 1'de görülmektedir.
 
 ![](images/1.png)
 
